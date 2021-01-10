@@ -15,8 +15,8 @@ double Fact(double n){
 }
 
 // Number of Digits = log10(n!)+1
-//					= log10(1*2*3*.....*n)+1
-//				    = log10(1)+log10(2)+log10(3)+.....+log10(n)+1
+//		    = log10(1*2*3*.....*n)+1
+//		    = log10(1)+log10(2)+log10(3)+.....+log10(n)+1
 //                  =    0    +  0.3   +  0.77  +.....+log10(n)+1
 int NumOfDigitsOfFact(int n){
 	double res = 0;

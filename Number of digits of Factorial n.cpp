@@ -15,8 +15,8 @@ double Fact(double n){
 }
 
 // Number of Digits = log10(n!)+1
-//					        = log10(1*2*3*.....*n)+1
-//				          = log10(1)+log10(2)+log10(3)+.....+log10(n)+1
+//					= log10(1*2*3*.....*n)+1
+//				    = log10(1)+log10(2)+log10(3)+.....+log10(n)+1
 //                  =    0    +  0.3   +  0.77  +.....+log10(n)+1
 int NumOfDigitsOfFact(int n){
 	double res = 0;
@@ -42,8 +42,8 @@ int main() {
 
 		cout << Fact(25) << endl;
 		cout << NumOfDigitsOfFact(25) << endl;
-
+		// factorial of 1, 22, 23 and 24 has number of Digits equal to their value 	==> NofDigitsOF(n!) == n
 		cout << Fact(32) << endl;
 		cout << NumOfDigitsOfFact(92) << endl;
-
 }
+// https://ideone.com/DuMD8p

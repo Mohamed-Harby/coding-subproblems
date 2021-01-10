@@ -44,6 +44,6 @@ int main() {
 		cout << NumOfDigitsOfFact(25) << endl;
 		// factorial of 1, 22, 23 and 24 has number of Digits equal to their value 	==> NofDigitsOF(n!) == n
 		cout << Fact(32) << endl;
-		cout << NumOfDigitsOfFact(92) << endl;
+		cout << NumOfDigitsOfFact(32) << endl;
 }
 // https://ideone.com/DuMD8p

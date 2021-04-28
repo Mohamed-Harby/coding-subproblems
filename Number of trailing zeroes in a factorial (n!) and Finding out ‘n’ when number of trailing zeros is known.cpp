@@ -31,7 +31,7 @@ void print_vector(vi b){
 	cout << endl;
 }
 int trailing_zeros_of_fact(int n){ // getting the trailing zeros of n!
-	int i=5;		// number of trailing zeros of 128! is ==> 128/5 + 128/25 + 128/126
+	int i=5;		// number of trailing zeros of 128! is ==> 128/5 + 128/25 + 128/125
 	int cnt = 0;
 	while(n >= i){		// O(log(n))
 		cnt+= n/i;

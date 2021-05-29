@@ -3,7 +3,6 @@
 using namespace std;
 #define vi vector<int>
 
-
 // Inclusion-Exclusion iterative function Works only with specific number of divisibles (4 here)
 int InclusionExclusion_iterative(vi &div,int val){
 	int res = 0;	
